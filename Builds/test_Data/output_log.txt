@@ -15,7 +15,7 @@ Loading C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Da
 Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.150 seconds
+- Completed reload, in  0.193 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -37,25 +37,39 @@ Loading C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Da
 Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.167 seconds
+- Completed reload, in  0.324 seconds
+Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\System.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2888 -> priority: 1 
+  Thread -> id: 2690 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 17.091990 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 207.
+Total: 0.691742 ms (FindLiveObjects: 0.047621 ms CreateObjectMapping: 0.052137 ms MarkObjects: 0.539435 ms  DeleteObjects: 0.046800 ms)
+
 <RI> Initialized touch support.
 Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\System.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 3ca8 -> priority: 1 
+  Thread -> id: 3c40 -> priority: 1 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 12.914439 ms
+UnloadTime: 15.819346 ms
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 207.
-Total: 0.464308 ms (FindLiveObjects: 0.030379 ms CreateObjectMapping: 0.029147 ms MarkObjects: 0.365781 ms  DeleteObjects: 0.034484 ms)
+Total: 0.692563 ms (FindLiveObjects: 0.046800 ms CreateObjectMapping: 0.050905 ms MarkObjects: 0.536562 ms  DeleteObjects: 0.050495 ms)
+
+MatchMakingClient Create :https://mm.unet.unity3d.com/json/reply/CreateMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+JSON Response: [[UnityEngine.Networking.Match.CreateMatchResponse]-success:True-extendedInfo:]-address:52.6.182.178,port:9999,networkId:0x0010000000005A45,nodeId:0x2E6E,usingRelay:True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.782058 ms
+UnloadTime: 1.101861 ms
 NullReferenceException: Object reference not set to an instance of an object
   at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
   at Player_ID.OnStartLocalPlayer () [0x00000] in <filename unknown>:0 
@@ -80,24 +94,70 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 411.
-Total: 1.121566 ms (FindLiveObjects: 0.070200 ms CreateObjectMapping: 0.050495 ms MarkObjects: 0.968028 ms  DeleteObjects: 0.028326 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 413.
+Total: 0.759479 ms (FindLiveObjects: 0.041463 ms CreateObjectMapping: 0.031610 ms MarkObjects: 0.658899 ms  DeleteObjects: 0.023400 ms)
 
 A connection has already been set as ready. There can only be one.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 15.028256 ms
+MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 207.
-Total: 0.670394 ms (FindLiveObjects: 0.047621 ms CreateObjectMapping: 0.042695 ms MarkObjects: 0.522604 ms  DeleteObjects: 0.050495 ms)
+JSON Response: [[UnityEngine.Networking.Match.ListMatchResponse]-success:True-extendedInfo:]-matches.Count:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+MatchMakingClient Join :https://mm.unet.unity3d.com/json/reply/JoinMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+JSON Response: [[UnityEngine.Networking.Match.JoinMatchResponse]-success:True-extendedInfo:]-address:52.6.182.178,port:9999,networkId:0x0010000000005A45,nodeId:0x2E6F,usingRelay:True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.775079 ms
+UnloadTime: 1.002102 ms
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 392.
-Total: 0.688047 ms (FindLiveObjects: 0.038589 ms CreateObjectMapping: 0.031200 ms MarkObjects: 0.593215 ms  DeleteObjects: 0.021347 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 394.
+Total: 1.010723 ms (FindLiveObjects: 0.061579 ms CreateObjectMapping: 0.053779 ms MarkObjects: 0.866627 ms  DeleteObjects: 0.024631 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
   at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
@@ -133,19 +193,59 @@ NullReferenceException: Object reference not set to an instance of an object
   at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
   at Player_ID.OnStartLocalPlayer () [0x00000] in <filename unknown>:0 
   at UnityEngine.Networking.NetworkIdentity.SetLocalPlayer (Int16 localPlayerControllerId) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.ClientScene.OnOwnerMessage (UnityEnNiuellRtefreirgenetceException: Object reference not setentame unknown>:0 
-  aob Ueni
-t atnPlaiye.NID.SeoIdentity () [0x00000] in <fnilenRmeeunknown>:0 
-  at Player_ID.Update () [0x00000] irn Infiltn32  rnecown>:0 
- 
+  at UnityEngine.Networking.ClientScene.OnOwnerMessage (UnityEngine.Networking.NetworkMessage netMsg) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.HandleReader (UnNtyEngunelNelwReferg.NeexcwerpRtaieo nea Oerb jec3t  erefceivedSnoet Isnt tochannenlId)ce [0x00000] in <
+file naayer_IDnoSetIde t
+  tat )n[ixt0yEngine.Networking.NetworkConne
+c aio Player_IDyUtea (Sys) [0x00000] in <filename unkenvewdS:0z   I
 (Filename:  Line: -1)
-0
-0000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x00000] in <filename unknown>:0 
+
+00] in <filename unknown>:0 
   at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00000] in <filename unknown>:0 
   at UnityEngine.Networking.NetworkClient.Update () [0x00000] in <filename unknown>:0 
   at UnityEngine.Networking.NetworkClient.UpdateClients () [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00000]ul ReferencenException: ame unkroefer0enc
+e 
+not set to aLinie:tance
+ 
+of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0xNu0l0e]fenr<eincnEame unknown>:0 t rfer
+ eatce not set to an ite () [0x0f0a0 0bj] ct   at Play uekro_ID.Set
+Id
+entity () [0x000e:00]) 
+i
+n <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -181,18 +281,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 Entro
  
-(Filename: C:/buildslave/unity/build/artifacts/geneEattro
- 
-(Fniluenamme: C:/buildslave/unity/build/artifacts:g ne64)ed
-/
-common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Trying to send command for object without authority.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Entro
- 
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
 Entro
@@ -235,33 +323,6 @@ Entro
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Entro
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Trying to send command for object without authority.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Entro
- 
-(Filename: C:/buildslave/unity/build/artifacts/genErated
-/c
-ommoenamuntime/bUuildslave/unity/build/drtifacts/generated/c64)
-n/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Trying to send command for object without authority.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Entro
- 
-(Filename: C:/buildslaveEunity/
- 
-(Fd/lrename:s/generated/com/uniru/build/artifagtsneDnberated/common/runtimiee: ni4)
-
-ngineDebugBindings.gen.cpp Line: 64)
-
 Trying to send command for object without authority.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
@@ -278,9 +339,15 @@ Trying to send command for object without authority.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Entro
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.545744 ms
+Multiple NetworkManagers detected in the scene. Only one NetworkManager can exist at a time. The duplicate NetworkManager will not be used.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 247.
+Total: 0.821469 ms (FindLiveObjects: 0.043105 ms CreateObjectMapping: 0.027916 ms MarkObjects: 0.722121 ms  DeleteObjects: 0.024221 ms)
 
 Entro
  
@@ -289,4 +356,14 @@ Entro
 Trying to send command for object without authority.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.489090 ms
+Multiple NetworkManagers detected in the scene. Only one NetworkManager can exist at a time. The duplicate NetworkManager will not be used.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 247.
+Total: 0.927386 ms (FindLiveObjects: 0.073074 ms CreateObjectMapping: 0.052547 ms MarkObjects: 0.763585 ms  DeleteObjects: 0.032431 ms)
 
