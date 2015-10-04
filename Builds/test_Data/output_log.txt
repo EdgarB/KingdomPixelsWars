@@ -1,0 +1,292 @@
+Initialize engine version: 5.2.0f3 (e7947df39b5c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.150 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Initialize engine version: 5.2.0f3 (e7947df39b5c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.167 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2888 -> priority: 1 
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Edgar\Documents\Unity Projects\HackMxMultiplayer\Builds\test_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3ca8 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 12.914439 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 207.
+Total: 0.464308 ms (FindLiveObjects: 0.030379 ms CreateObjectMapping: 0.029147 ms MarkObjects: 0.365781 ms  DeleteObjects: 0.034484 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.782058 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.OnStartLocalPlayer () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.SetLocalPlayer (Int16 localPlayerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkServer.SetupLocalPlayerForConnection (UnityEngine.Networking.NetworkConnection conn, UnityEngine.Networking.NetworkIdentity uv, UnityEngine.Networking.PlayerController newPlayerController) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkServer.InternalAddPlayerForConnection (UnityEngine.Networking.NetworkConnection conn, UnityEngine.GameObject playerGameObject, Int16 playerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkServer.AddPlayerForConnection (UnityEngine.Networking.NetworkConnection conn, UnityEngine.GameObject player, Int16 playerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkManager.OnServerAddPlayerInternal (UnityEngine.Networking.NetworkConnection conn, Int16 playerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkManager.OnServerAddPlayer (UnityEngine.Networking.NetworkConnection conn, Int16 playerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkManager.OnServerAddPlayerMessageInternal (UnityEngine.Networking.NetworkMessage netMsg) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.InvokeHandler (Int16 msgType, UnityEngine.Networking.NetworkReader reader, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkServer.InvokeHandlerOnServer (UnityEngine.Networking.ULocalConnectionToServer conn, Int16 msgType, UnityEngine.Networking.MessageBase msg, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.ULocalConnectionToServer.Send (Int16 msgType, UnityEngine.Networking.MessageBase msg) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.ClientScene.AddPlayer (UnityEngine.Networking.NetworkConnection readyConn, Int16 playerControllerId, UnityEngine.Networking.MessageBase extraMessage) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.ClientScene.AddPlayer (UnityEngine.Networking.NetworkConnection readyConn, Int16 playerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.ClientScene.AddPlayer (Int16 playerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkManager.OnClientSceneChanged (UnityEngine.Networking.NetworkConnection conn) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkManager.FinishLoadScene () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkManager.UpdateScene () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 411.
+Total: 1.121566 ms (FindLiveObjects: 0.070200 ms CreateObjectMapping: 0.050495 ms MarkObjects: 0.968028 ms  DeleteObjects: 0.028326 ms)
+
+A connection has already been set as ready. There can only be one.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 15.028256 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 207.
+Total: 0.670394 ms (FindLiveObjects: 0.047621 ms CreateObjectMapping: 0.042695 ms MarkObjects: 0.522604 ms  DeleteObjects: 0.050495 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.775079 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 392.
+Total: 0.688047 ms (FindLiveObjects: 0.038589 ms CreateObjectMapping: 0.031200 ms MarkObjects: 0.593215 ms  DeleteObjects: 0.021347 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.OnStartLocalPlayer () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.SetLocalPlayer (Int16 localPlayerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.ClientScene.OnOwnerMessage (UnityEnNiuellRtefreirgenetceException: Object reference not setentame unknown>:0 
+  aob Ueni
+t atnPlaiye.NID.SeoIdentity () [0x00000] in <fnilenRmeeunknown>:0 
+  at Player_ID.Update () [0x00000] irn Infiltn32  rnecown>:0 
+ 
+(Filename:  Line: -1)
+0
+0000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkClient.Update () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkClient.UpdateClients () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_ID.SetIdentity () [0x00000] in <filename unknown>:0 
+  at Player_ID.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/geneEattro
+ 
+(Fniluenamme: C:/buildslave/unity/build/artifacts:g ne64)ed
+/
+common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/genErated
+/c
+ommoenamuntime/bUuildslave/unity/build/drtifacts/generated/c64)
+n/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslaveEunity/
+ 
+(Fd/lrename:s/generated/com/uniru/build/artifagtsneDnberated/common/runtimiee: ni4)
+
+ngineDebugBindings.gen.cpp Line: 64)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Entro
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Trying to send command for object without authority.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
